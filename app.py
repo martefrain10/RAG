@@ -10,7 +10,7 @@ from langchain_community.vectorstores import Qdrant
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
-openai_api_key = "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"
+openai_api_key = "sk-proj-ZLifJ2ofgpFSn4ZZKOQZT3BlbkFJVgKlndne7hLSGqe8GfaH"
 os.environ["OPENAI_API_KEY"] = openai_api_key
 primary_qa_llm = ChatOpenAI(model_name="gpt-4-turbo", temperature=0)
 
